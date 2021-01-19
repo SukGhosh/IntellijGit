@@ -2,8 +2,10 @@ package sdetPreparation;
 
 public class Main {
 
-    public static void main(String[] args) {
-        System.out.println("New Project");
-        System.out.println("Sukanta Da");
-    }
+	public static void main(String[] args) {
+
+		
+		System.out.println(DecimalComparator.areEqualByThreeDecimalPlaces(3.1756, 3.175));
+	}
+
 }
